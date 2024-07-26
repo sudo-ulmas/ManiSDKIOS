@@ -1,0 +1,6 @@
+framework module ManiSDK {
+  umbrella header "ManiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

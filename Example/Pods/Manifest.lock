@@ -1,0 +1,27 @@
+PODS:
+  - ManiSDK (0.3.0)
+  - ManiSDKIOS (0.0.1):
+    - ManiSDK (~> 0.3.0)
+    - MyIdSDK (~> 2.2.9)
+  - MyIdSDK (2.2.9)
+
+DEPENDENCIES:
+  - ManiSDKIOS (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ManiSDK
+    - MyIdSDK
+
+EXTERNAL SOURCES:
+  ManiSDKIOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ManiSDK: 7b5c512913bfb1a10189668026d47263eee10fd9
+  ManiSDKIOS: 881dd1d09aff176dbaac8921e4494c6e9a47c8d9
+  MyIdSDK: b6929bf779782f9358817c91e5fc73d0060bf88b
+
+PODFILE CHECKSUM: c6068cb5a676381a3279af6489d9dec14ec1955e
+
+COCOAPODS: 1.15.2

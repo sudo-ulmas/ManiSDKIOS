@@ -1,0 +1,6 @@
+framework module ManiSDKIOS {
+  umbrella header "ManiSDKIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

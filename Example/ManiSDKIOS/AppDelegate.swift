@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import ManiSDKIOS
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    lazy var sdk = ManiSDKIOS()
     var window: UIWindow?
 
 

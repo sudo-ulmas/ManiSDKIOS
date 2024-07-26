@@ -1,0 +1,32 @@
+{
+  "name": "ManiSDKIOS",
+  "version": "0.0.1",
+  "summary": "A short description of ManiSDKIOS.",
+  "description": "Mani SDK for IOS",
+  "homepage": "http://EXAMPLE/ManiSDKIOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Abdulloh Raxmatullaev": "rakhmatullaevulmas@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sudo-ulmas/ManiSDKIOS"
+  },
+  "source_files": [
+    "Classes",
+    "ManiSDKIOS/Classes/*.{h,m,swift}"
+  ],
+  "dependencies": {
+    "ManiSDK": [
+      "~> 0.3.0"
+    ],
+    "MyIdSDK": [
+      "~> 2.2.9"
+    ]
+  },
+  "platforms": {
+    "ios": "12.0"
+  }
+}
